@@ -71,6 +71,23 @@ export default {
         "conic-gradient":
             "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
+
+      keyframes: {
+        fadeIn: {
+          '0%':  {opacity: 0},
+          '100%': {opacity: 1} ,
+        },
+        fadeOut: {
+          '0%': {opacity: 1} ,
+          '100%': {opacity: 0} ,
+        },
+      },
+
+      animation: {
+        fadeIn: 'fadeIn .6s ease-in-out',
+        fadeOut: 'fadeOut .2s ease-in-out forwards',
+      },
+
     },
   },
   plugins: [
