@@ -1,4 +1,4 @@
-import { background } from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/index.js";
+import { background } from "/src/assets/index.js";
 
 export const Rings = () => {
   return (
