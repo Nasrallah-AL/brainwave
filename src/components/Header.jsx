@@ -65,7 +65,7 @@ const Header = () => {
 
 
                     </div>
-                    <HamburgerMenu bgAnimation={openNav ? `animate-pulse duration-1000` : 'animate-none'} />
+                    <HamburgerMenu bgAnimation={openNav ? `animate-pulse` : 'animate-none'} />
                 </nav>
 
                 <a href="#signup"
