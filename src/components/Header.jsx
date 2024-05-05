@@ -43,7 +43,7 @@ const Header = () => {
                     />
                 </a>
                 <nav className={`
-                fixed top-[5rem] left-0 right-0
+                fixed top-[4.75rem] left-0 right-0
                  bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent bg-n-8  
                   ${openNav ? 'flex animate-fadeIn' : 'hidden' }
                  `}>
