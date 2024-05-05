@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MouseParallax } from "react-just-parallax";
 
-import PlusSvg from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/svg/PlusSvg.jsx";
+import PlusSvg from "/src/assets/svg/PlusSvg.jsx";
 
 export const Gradient = () => {
   return (
