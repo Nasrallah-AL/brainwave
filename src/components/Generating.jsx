@@ -1,4 +1,5 @@
 import {loading} from "../assets/index.js";
+import {TypeAnimation} from "react-type-animation";
 
 const Generating = ({ className }) => {
     return (
@@ -11,14 +12,24 @@ const Generating = ({ className }) => {
                 src={loading}
                 alt="loading"
             />
-            AI is generating
-            {
-                [...Array(3)].map((_, index) => (
-                    <span key={index} className={`animate-pulse`}>
-                        &nbsp;.
-                    </span>
-                ))
-            }
+            <TypeAnimation
+                sequence={[
+
+                    "AI is thinking...",
+                    1000,
+                    "Generating insights...",
+                    1000,
+                    "Processing data...",
+                    1000,
+                    "Analyzing patterns...",
+                    1000,
+                    "Searching through information...",
+                    1000
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+            />
         </div>
     )
 }
