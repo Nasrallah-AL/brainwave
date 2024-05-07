@@ -5,6 +5,9 @@ import {useRef} from "react";
 import {ScrollParallax} from "react-just-parallax";
 import {heroIcons} from "../constants/index.js";
 import {BackgroundCircles, BottomLine, Gradient} from "./design/Hero.jsx";
+import Generating from "./Generating.jsx";
+import {Notification} from "./Notification.jsx";
+import CompanyLogos from "./CompanyLogos.jsx";
 
 const Hero = () => {
     const parallaxRef = useRef(null);
@@ -58,6 +61,14 @@ const Hero = () => {
                                     alt="AI"
                                 />
 
+                                <ScrollParallax isAbsolutelyPositioned strength={0.05}>
+                                    <Generating
+                                        className="absolute left-4 right-4 bottom-5
+                                            md:left-1/2 md:right-auto md:bottom-8
+                                            md:w-[31rem] md:-translate-x-1/2" />
+                                </ScrollParallax>
+
+
                                 <ScrollParallax isAbsolutelyPositioned>
                                     <ul className="hidden absolute -left-[5.5rem]
                                     bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur
@@ -73,6 +84,12 @@ const Hero = () => {
                                             </li>
                                         ))}
                                     </ul>
+                                </ScrollParallax>
+
+                                <ScrollParallax isAbsolutelyPositioned strength={.5}>
+                                    <Notification
+                                        className="hidden absolute -right-[5.5rem]
+                                        bottom-[11rem] w-[18rem] xl:flex " />
                                 </ScrollParallax>
                             </div>
                         </div>
@@ -92,6 +109,9 @@ const Hero = () => {
 
                     <BackgroundCircles />
                 </div>
+
+                <CompanyLogos  className="hidden relative z-10 lg:block mt-20" />
+
             </div>
 
             <BottomLine />
