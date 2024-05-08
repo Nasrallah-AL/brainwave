@@ -1,4 +1,4 @@
-import { curve1, curve2 } from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/index.js";
+import { curve1, curve2 } from "/src/assets/index.js";
 
 export const RightCurve = () => {
   return (
