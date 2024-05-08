@@ -1,5 +1,5 @@
-import { brainwaveWhiteSymbol, gradient, play } from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/index.js";
-import ChatBubbleWing from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/svg/ChatBubbleWing.jsx";
+import { brainwaveWhiteSymbol, gradient, play } from "/src/assets/index.js";
+import ChatBubbleWing from "/src/assets/svg/ChatBubbleWing.jsx";
 
 export const Gradient = () => {
   return (
@@ -36,7 +36,7 @@ export const VideoChatMessage = () => {
           alt="Brainwave"
         />
       </div>
-      <p className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
+      <p className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase group-hover/s3:animate-pulse">
         just now
       </p>
       <ChatBubbleWing
@@ -55,11 +55,11 @@ export const VideoBar = () => {
         width={24}
         height={24}
         alt="Play"
-        className="object-contain mr-3"
+        className="object-contain mr-3 transition-all group-hover/s3:animate-fadeIn group-hover/s3:scale-125"
       />
 
       <div className="flex-1 bg-[#D9D9D9]">
-        <div className="w-1/2 h-0.5 bg-color-1"></div>
+        <div className="w-1/5 h-0.5 bg-color-1 transition-all duration-[3s] group-hover/s3:w-full"></div>
       </div>
     </div>
   );

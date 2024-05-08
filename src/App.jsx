@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import {Benefits} from "./components/Benefits.jsx";
 import {Collaboration} from "./Collaboration.jsx";
+import {Services} from "./Services.jsx";
 
 function App() {
  return (
@@ -13,6 +14,7 @@ function App() {
           <Hero />
           <Benefits />
           <Collaboration />
+          <Services />
        <ButtonGradient />
       </div>
      </>
