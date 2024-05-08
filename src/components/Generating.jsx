@@ -28,6 +28,7 @@ const Generating = ({ className }) => {
                 ]}
                 wrapper="span"
                 speed={50}
+                className="max-sm:text-sm"
                 repeat={Infinity}
             />
         </div>
