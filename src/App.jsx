@@ -6,6 +6,8 @@ import {Benefits} from "./components/Benefits.jsx";
 import {Collaboration} from "./Collaboration.jsx";
 import {Services} from "./Services.jsx";
 import {Pricing} from "./components/Pricing.jsx";
+import Roadmap from "./components/Roadmap.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
  return (
@@ -17,6 +19,8 @@ function App() {
           <Collaboration />
           <Services />
           <Pricing />
+          <Roadmap />
+          <Footer />
        <ButtonGradient />
       </div>
      </>
