@@ -1,4 +1,4 @@
-import { gradient } from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/index.js";
+import { gradient } from "/src/assets/index.js";
 
 export const Gradient = () => {
   return (
