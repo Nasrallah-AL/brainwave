@@ -1,4 +1,4 @@
-import { lines } from "../../../../../../Downloads/Compressed/brainwave-main/brainwave-main/src/assets/index.js";
+import { lines } from "/src/assets/index.js";
 
 export const LeftLine = () => {
   return (
