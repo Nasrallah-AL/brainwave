@@ -1,4 +1,5 @@
 # Brainwave 🧠
+"Where human creativity meets computational brilliance, shaping tomorrow's possibilities."
 
 ## Introduction
 
